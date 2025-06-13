@@ -12,14 +12,15 @@ export default {
       'creative tools',
       'AI-powered',
       'design software',
-      'motion graphics'
-    ]
+      'motion graphics',
+    ],
   },
   header: {
     logoLink: { title: 'Home', href: '/' },
     navLinks: [
       { title: 'Features', href: '/features' },
-      { title: 'Sign Up', href: '/signup' }
-    ]
-  }
+      { title: 'Sign Up', href: '/signup' },
+    ],
+  },
+  pages: {},
 };

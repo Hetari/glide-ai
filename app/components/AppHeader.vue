@@ -95,7 +95,7 @@
 </template>
 
 <script lang="ts" setup>
-import data from "~/data";
+import data from '~/data';
 
 const isOpen = ref(false);
 // defineProps<>();

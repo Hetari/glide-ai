@@ -34,5 +34,5 @@
 </template>
 
 <script lang="ts" setup>
-import data from "~/data";
+import data from '~/data';
 </script>
