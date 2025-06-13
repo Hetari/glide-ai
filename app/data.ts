@@ -14,5 +14,12 @@ export default {
       'design software',
       'motion graphics'
     ]
+  },
+  header: {
+    logoLink: { title: 'Home', href: '/' },
+    navLinks: [
+      { title: 'Features', href: '/features' },
+      { title: 'Sign Up', href: '/signup' }
+    ]
   }
 };
