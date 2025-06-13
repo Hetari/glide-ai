@@ -11,11 +11,11 @@ import data from '~/data';
 import ogImage from 'public/assets/ogImage.webp';
 
 useSeoMeta({
-  title: data.seo.title,
-  ogTitle: data.seo.title,
-  description: data.seo.description,
-  ogDescription: data.seo.description,
-  keywords: data.seo.keywords.join(', '),
+  title: data.seo.site.title,
+  ogTitle: data.seo.site.title,
+  description: data.seo.site.description,
+  ogDescription: data.seo.site.description,
+  keywords: data.seo.site.keywords.join(', '),
   ogImage: ogImage,
 });
 </script>

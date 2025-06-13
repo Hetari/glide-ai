@@ -15,7 +15,7 @@
           alt="Logo"
           class="h-8 w-auto md:h-10"
         />
-        <span class="sr-only">{{ data.seo.title }} Home Page</span>
+        <span class="sr-only">{{ data.seo.site.title }} Home Page</span>
       </NuxtLink>
 
       <ul class="flex items-center gap-6">
