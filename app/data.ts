@@ -40,7 +40,18 @@ export default {
   pages: {
     home: {
       heading: 'Effortless motion design, built with precision',
-      subheading: 'The AI ',
+      subheading:
+        'The AI features you need to transport your business from little leagues to the big time',
+      cta: {
+        title: 'Download now',
+        href: '#',
+        icon: 'download',
+        iconPosition: 'left',
+        image: {
+          src: '/assets/dashboard.webp',
+          alt: 'Glide.ai Dashboard',
+        },
+      },
     },
   },
 };
