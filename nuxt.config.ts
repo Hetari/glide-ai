@@ -22,7 +22,7 @@ export default defineNuxtConfig({
       link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     },
   },
-  modules: ['@nuxt/eslint', '@nuxt/fonts', '@nuxt/icon', 'lenis'],
+  modules: ['@nuxt/eslint', '@nuxt/fonts', '@nuxt/icon'],
   css: ['~/assets/css/main.css'],
   vite: {
     plugins: [tailwindcss()],

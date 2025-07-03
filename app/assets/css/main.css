@@ -25,6 +25,3 @@ body {
   @apply before:absolute before:-inset-3 before:-z-10 before:rounded-xl before:border before:border-gray-100/20 before:bg-gray-200/10 before:backdrop-blur-md;
 }
 
-.glass-container > div {
-  @apply animate-[spin_30s_linear_infinite];
-}
